@@ -8,6 +8,7 @@ package cartester;
  * @author Jordan Hamilton
  */
 public class Car {
+    
 
     // A constructor that sets all defualts of the car if the user's input contains nothing
     public static void CarDefualts(){
@@ -30,17 +31,20 @@ public class Car {
         System.out.println("");
         System.out.println("Car #1");
         System.out.println("Make: " + make +"\n"+ "Model: " + model +"\n"+ "Year: " + year+"\n" + "Price: $" + price +"\n"+ "HorsePower: " + horsepower +"\n" + "Weight: " + weight + " Pounds");
+        
     }
-    public void Car2Characteristics(String make1, String model1, int year1, double price1, int horsepower1, double weight1){
+    // all variables for the second car, this also prints at the end of the program
+    public static void Car2Characteristics(String make1, String model1, int year1, double price1, int horsepower1, double weight1){
         System.out.println("");
         System.out.println("Car #2");
         System.out.println("Make: " + make1 +"\n"+ "Model: " + model1 +"\n"+ "Year: " + year1 +"\n" + "Price: $" + price1 +"\n"+ "HorsePower: " + horsepower1 +"\n" + "Weight: " + weight1 + " Pounds");
     }
-    public void Car3Charictaristics(String make2, String model2, int year2, double price2, int horsepower2, double weight2){
+    // all variables for the third car, this also prints at the end of the program
+    public static void Car3Charictaristics(String make2, String model2, int year2, double price2, int horsepower2, double weight2){
         System.out.println("");
         System.out.println("Car #3");
         System.out.println("Make: " + make2 +"\n"+ "Model: " + model2 +"\n"+ "Year: " + year2 +"\n" + "Price: $" + price2 +"\n"+ "HorsePower: " + horsepower2 +"\n" + "Weight: " + weight2 + " Pounds");
-    }
-    
+        
+    } 
 }
 
